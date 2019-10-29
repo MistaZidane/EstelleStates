@@ -11,7 +11,9 @@ import { FeaturesComponent } from './home/features/features.component';
 import { AgentComponent } from './home/agent/agent.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MainComponent } from './main/main.component';
-import { CountdownComponent } from './home/countdown/countdown.component'
+import { CountdownComponent } from './home/countdown/countdown.component';
+import { FooterComponent } from './footer/footer.component';
+import { SpaceComponent } from './space/space.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { CountdownComponent } from './home/countdown/countdown.component'
     AgentComponent,
     NavbarComponent,
     MainComponent,
-    CountdownComponent
+    CountdownComponent,
+    FooterComponent,
+    SpaceComponent
   ],
   imports: [
     BrowserModule,

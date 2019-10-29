@@ -1,0 +1,23 @@
+.footer{
+    background-color: #303841;
+    color: #eeeeee;
+}
+.footer .container{
+    color: #eeeeee;
+}
+.col a{
+    color: #eeeeee; 
+}
+.col a p{
+    color: #eeeeee; 
+}
+.col a p:Hover{
+    color: #ea9215; 
+}
+.copy{
+    color: #eeeeee; 
+}
+.copy:Hover{
+    color: #ea9215; 
+}
+
