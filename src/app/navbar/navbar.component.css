@@ -1,0 +1,15 @@
+.myNav{
+    background-color: #303841;
+}
+.nav div a{
+  color: #eeeeee;
+}
+.brand{
+    color: #eeeeee;
+}
+.brand:Hover{
+    color: #ea9215;
+}
+.nav div a:Hover{
+    color: #ea9215;
+  }

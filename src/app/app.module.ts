@@ -10,7 +10,8 @@ import { ChooseComponent } from './home/choose/choose.component';
 import { FeaturesComponent } from './home/features/features.component';
 import { AgentComponent } from './home/agent/agent.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { MainComponent } from './main/main.component'
+import { MainComponent } from './main/main.component';
+import { CountdownComponent } from './home/countdown/countdown.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MainComponent } from './main/main.component'
     FeaturesComponent,
     AgentComponent,
     NavbarComponent,
-    MainComponent
+    MainComponent,
+    CountdownComponent
   ],
   imports: [
     BrowserModule,
