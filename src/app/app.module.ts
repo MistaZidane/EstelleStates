@@ -14,7 +14,8 @@ import { MainComponent } from './main/main.component';
 import { CountdownComponent } from './home/countdown/countdown.component';
 import { FooterComponent } from './footer/footer.component';
 import { SpaceComponent } from './space/space.component';
-import { PropertiesComponent } from './properties/properties.component'
+import { PropertiesComponent } from './properties/properties.component';
+import { PropertyComponent } from './properties/property/property.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PropertiesComponent } from './properties/properties.component'
     CountdownComponent,
     FooterComponent,
     SpaceComponent,
-    PropertiesComponent
+    PropertiesComponent,
+    PropertyComponent
   ],
   imports: [
     BrowserModule,
