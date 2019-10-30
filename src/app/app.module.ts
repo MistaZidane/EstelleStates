@@ -15,7 +15,10 @@ import { CountdownComponent } from './home/countdown/countdown.component';
 import { FooterComponent } from './footer/footer.component';
 import { SpaceComponent } from './space/space.component';
 import { PropertiesComponent } from './properties/properties.component';
-import { PropertyComponent } from './properties/property/property.component'
+import { PropertyComponent } from './properties/property/property.component';
+import { FacilitiesComponent } from './properties/property/facilities/facilities.component';
+import { LocationComponent } from './properties/property/location/location.component';
+import { DescriptionComponent } from './properties/property/description/description.component'
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { PropertyComponent } from './properties/property/property.component'
     FooterComponent,
     SpaceComponent,
     PropertiesComponent,
-    PropertyComponent
+    PropertyComponent,
+    FacilitiesComponent,
+    LocationComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,
