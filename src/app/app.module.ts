@@ -13,7 +13,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MainComponent } from './main/main.component';
 import { CountdownComponent } from './home/countdown/countdown.component';
 import { FooterComponent } from './footer/footer.component';
-import { SpaceComponent } from './space/space.component'
+import { SpaceComponent } from './space/space.component';
+import { PropertiesComponent } from './properties/properties.component'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SpaceComponent } from './space/space.component'
     MainComponent,
     CountdownComponent,
     FooterComponent,
-    SpaceComponent
+    SpaceComponent,
+    PropertiesComponent
   ],
   imports: [
     BrowserModule,
