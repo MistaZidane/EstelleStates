@@ -50,7 +50,7 @@ import {RouterModule} from '@angular/router'
       {path:'properties', component:PropertiesComponent},
       {path: 'properties/property/:id',component:PropertyComponent, 
       children:[
-        { path: '', redirectTo: 'facilities', pathMatch: 'full' },
+        { path: '', component:FacilitiesComponent},
         {path:'facilities', component:FacilitiesComponent},
         {path:'description',component:DescriptionComponent},
         {path:'location',component:LocationComponent},
