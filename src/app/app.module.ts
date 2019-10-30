@@ -18,7 +18,8 @@ import { PropertiesComponent } from './properties/properties.component';
 import { PropertyComponent } from './properties/property/property.component';
 import { FacilitiesComponent } from './properties/property/facilities/facilities.component';
 import { LocationComponent } from './properties/property/location/location.component';
-import { DescriptionComponent } from './properties/property/description/description.component'
+import { DescriptionComponent } from './properties/property/description/description.component';
+import {RouterModule} from '@angular/router'
 
 @NgModule({
   declarations: [
@@ -42,9 +43,16 @@ import { DescriptionComponent } from './properties/property/description/descript
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot([
+      {path:'',component:MainComponent},
+      {path:'main', component:MainComponent},
+      {path:'properties', component:PropertiesComponent},
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  
+}
