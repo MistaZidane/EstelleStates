@@ -48,6 +48,15 @@ import {RouterModule} from '@angular/router'
       {path:'',component:MainComponent},
       {path:'main', component:MainComponent},
       {path:'properties', component:PropertiesComponent},
+      {path: 'properties/property/:id',component:PropertyComponent, 
+      children:[
+        { path: '', redirectTo: 'facilities', pathMatch: 'full' },
+        {path:'facilities', component:FacilitiesComponent},
+        {path:'description',component:DescriptionComponent},
+        {path:'location',component:LocationComponent},
+      ]
+    },
+     
     ])
   ],
   providers: [],

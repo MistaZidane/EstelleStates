@@ -13,3 +13,6 @@
 .nav div a:Hover{
     color: #ea9215;
   }
+  .active{
+      color: #000;
+  }
