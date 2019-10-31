@@ -50,7 +50,7 @@ import {RouterModule} from '@angular/router';
       {path:'',component:MainComponent},
       {path:'main', component:MainComponent},
       {path:'properties', component:PropertiesComponent},
-      {path: 'properties/property/:id',component:PropertyComponent, 
+      {path: 'property/:id',component:PropertyComponent, 
       children:[
         { path: '', component:FacilitiesComponent},
         {path:'facilities', component:FacilitiesComponent},

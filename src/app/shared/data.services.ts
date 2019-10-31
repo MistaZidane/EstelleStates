@@ -14,7 +14,4 @@ public url= "assets/data.json";
    getData():Observable<DataInterface[]>{
        return this.http.get<DataInterface[]> (this.url);
    }
-    
-
-
 }

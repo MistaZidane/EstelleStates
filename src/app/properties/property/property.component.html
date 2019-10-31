@@ -5,7 +5,7 @@
                 
                 <div class="slide">
                     <figure class="image">
-                        <img src="assets/home.jpg" alt="">
+                        <img [src]="data[id]?.image" alt="">
                     </figure>
                 </div>
                 <div class="myTabs">
@@ -18,7 +18,7 @@
                               </div>
                 </div><br>
                 <div class="output">
-                        <router-outlet></router-outlet>
+                        <router-outlet [mainData]></router-outlet>
                     </div>
             </div>
             <div class="column is-3">
@@ -58,7 +58,7 @@
                 </div>
             </div>
         </div>
-       
+       {{data[id] | json}}
     </div>
 </div>
      

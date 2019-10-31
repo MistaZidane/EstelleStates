@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute} from '@angular/router';
-import { DataSevices} from '../shared/data.services'
+import { DataSevices} from '../shared/data.services';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-properties',
@@ -9,14 +9,16 @@ import { DataSevices} from '../shared/data.services'
 })
 export class PropertiesComponent implements OnInit {
  public data=[];
-  constructor(private route:ActivatedRoute, private mydata: DataSevices) { }
+  constructor( private mydata: DataSevices, private route:Router) { }
 
   ngOnInit() {
-    this.route.paramMap.subscribe(params => {
-      
-    });
     this.mydata.getData()
     .subscribe(mydata => this.data = mydata );
+    console.log(this.mydata)
+    
+  }
+  nav(id){
+    this.route.navigate(['property', id])
   }
 
 }
