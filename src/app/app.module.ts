@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {HttpClientModule} from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,7 +20,7 @@ import { PropertyComponent } from './properties/property/property.component';
 import { FacilitiesComponent } from './properties/property/facilities/facilities.component';
 import { LocationComponent } from './properties/property/location/location.component';
 import { DescriptionComponent } from './properties/property/description/description.component';
-import {RouterModule} from '@angular/router'
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import {RouterModule} from '@angular/router'
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     RouterModule.forRoot([
       {path:'',component:MainComponent},
       {path:'main', component:MainComponent},
