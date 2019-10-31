@@ -12,7 +12,7 @@ constructor(private http: HttpClient){
 }
 public url= "assets/data.json";
    getData():Observable<DataInterface[]>{
-       return this.http.get<DataInterface[]> (this.url)
+       return this.http.get<DataInterface[]> (this.url);
    }
     
 

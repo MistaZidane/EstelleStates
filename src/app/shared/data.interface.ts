@@ -1,8 +1,7 @@
 export interface DataInterface{
     id: string,
     name: string,
-    rent:string,
-    buy: string,
+    status: string,
     location: {
         longitude: string,
         latitude: string,
