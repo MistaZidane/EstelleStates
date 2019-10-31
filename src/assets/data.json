@@ -1,0 +1,95 @@
+[
+     {
+        "id":"1",
+        "name":"Humburger days",
+        "rent":"false",
+        "buy":"true",
+        "location":{
+            "longitude":"132323",
+            "latitude":"343543"
+        },
+        "description":{
+            "first":"lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwflorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf",
+            "second":"lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf"
+        },
+        "water":"true",
+        "Internet":"true",
+        "Parking":"true",
+        "image":"assets/scott.jpg",
+        "rooms":"4",
+        "bathrooms":"4",
+        "price":"1.3",
+        "type":"duplex",
+        "area":"40"
+    },
+    {
+        "id":"2",
+        "name":"Humburger days",
+        "rent":"false",
+        "buy":"true",
+        "location":{
+            "longitude":"132323",
+            "latitude":"343543"
+        },
+        "description":{
+            "first":"lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwflorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf",
+            "second":"lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf"
+        },
+        "water":"true",
+        "Internet":"true",
+        "Parking":"true",
+        "image":"assets/home1.jpg",
+        "rooms":"4",
+        "bathrooms":"4",
+        "price":"1.3",
+        "type":"duplex",
+        "area":"40"
+    },
+    {
+        "id":"3",
+        "name":"Humburger days",
+        "rent":"false",
+        "buy":"true",
+        "location":{
+            "longitude":"132323",
+            "latitude":"343543"
+        },
+        "description":{
+            "first":"lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maiores quisquam saepe architecto error corporis aliquam. Cum ipsam a consectetur aut sunt sint animi, pariatur",
+            "second":"lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf"
+        },
+        "water":"true",
+        "Internet":"true",
+        "Parking":"true",
+        "image":"assets/home2.jpg",
+        "rooms":"4",
+        "bathrooms":"2",
+        "price":"1.3",
+        "type":"duplex",
+        "area":"40"
+    },
+    {
+        "id":"4",
+        "name":"Humburger days",
+        "rent":"false",
+        "buy":"true",
+        "location":{
+            "longitude":"132323",
+            "latitude":"343543"
+        },
+        "description":{
+            "first":"Choose from a curated selection of house photos. Always free on Unsplash fj fhew wfwh fwejw ejf ej fjwf",
+            "second":"lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf lorem ipsum dolor sej jfed fj fhew wfwh fwejw ejf ej fjwf"
+        },
+        "water":"true",
+        "Internet":"true",
+        "Parking":"true",
+        "image":"assets/scott.jpg",
+        "rooms":"4",
+        "bathrooms":"4",
+        "price":"1.3",
+        "type":"duplex",
+        "area":"40"
+    }
+    
+]
