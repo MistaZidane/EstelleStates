@@ -11,14 +11,14 @@
                 <div class="myTabs">
                         <div class="tabs">
                                 <ul>
-                                  <li routerLinkActive="is-active" class=""><a routerLink="/properties/property/:id/facilities">Facilities</a></li>
-                                  <li routerLinkActive="is-active"><a routerLink="/properties/property/:id/description">Description</a></li>
-                                  <li routerLinkActive="is-active"><a routerLink="/properties/property/:id/location">Location</a></li>                       
+                                  <li routerLinkActive="is-active" class=""><a routerLink="/property/:id/facilities">Facilities</a></li>
+                                  <li routerLinkActive="is-active"><a routerLink="/property/:id/description">Description</a></li>
+                                  <li routerLinkActive="is-active"><a routerLink="/property/:id/location">Location</a></li>                       
                                 </ul>
                               </div>
                 </div><br>
                 <div class="output">
-                        <router-outlet [mainData]></router-outlet>
+                        <router-outlet></router-outlet>
                     </div>
             </div>
             <div class="column is-3">

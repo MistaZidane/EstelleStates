@@ -14,7 +14,6 @@ export class PropertiesComponent implements OnInit {
   ngOnInit() {
     this.mydata.getData()
     .subscribe(mydata => this.data = mydata );
-    console.log(this.mydata)
     
   }
   nav(id){
