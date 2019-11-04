@@ -11,14 +11,60 @@
                 <div class="myTabs">
                         <div class="tabs">
                                 <ul>
-                                  <li routerLinkActive="is-active" class=""><a routerLink="/property/:id/facilities">Facilities</a></li>
-                                  <li routerLinkActive="is-active"><a routerLink="/property/:id/description">Description</a></li>
-                                  <li routerLinkActive="is-active"><a routerLink="/property/:id/location">Location</a></li>                       
+                                  <li><a (click)="option()">Facilities</a></li>
+                                  <li><a (click)="option()">Description</a></li>
+                                  <li><a (click)="option()">Location</a></li>                       
                                 </ul>
                               </div>
                 </div><br>
                 <div class="output">
-                        <router-outlet></router-outlet>
+                        <div class="facilities">
+                            <div class="columns">
+                                <div class="column is-4">
+                                  <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Bed  rooms: 4</p>
+                                  <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Bath Rooms: 4</p>
+                                  <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Garage: 2</p>
+                                  <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Bed rooms 4</p>
+                                </div>
+                                <div class="column is-4">
+                                      <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Home theater</p>
+                                      <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Guest quarters</p>
+                                      <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Tankless water heater</p>
+                                      <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i>  Tile</p>
+                                </div>
+                                <div class="column is-4">
+                                      <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Gym/workout room</p>
+                                      <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Manufactured wood</p>
+                                      <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Ceiling fans</p>
+                                      <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i>  Thermostats</p>
+                                </div>
+                              
+                              </div>
+                        </div>
+                 <div class="description">
+
+                        <div class="columns">
+                          <div class="column is-12">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              expedita impedit. Voluptatum accusantium saepe dolorem provident,
+              asperiores quis. Qui temporibus nihil deleniti dolores quos amet 
+              vero ipsam nisi. Suscipit, facilis.</p><br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
+                   expedita impedit. Voluptatum accusantium saepe dolorem provident,
+                   asperiores quis. Qui temporibus nihil deleniti dolores quos amet 
+                   vero ipsam nisi. Suscipit, facilis.</p>
+                  </div>
+                      </div>
+
+                        </div>
+                        <div class="location">
+                            <div class="columns">
+                                <div class="column is-12">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1292.9496256043346!2d10.18920382923295!3d5.998390333490525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwNTknNTQuMiJOIDEwwrAxMScyMy4xIkU!5e1!3m2!1sen!2scm!4v1572443183426!5m2!1sen!2scm" width="1024" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                </div>
+                        </div>
+                        
+                        </div>
                     </div>
             </div>
             <div class="column is-3">
@@ -58,7 +104,7 @@
                 </div>
             </div>
         </div>
-       {{data[id] | json}}
+       
     </div>
 </div>
      
