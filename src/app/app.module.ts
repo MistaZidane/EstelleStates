@@ -17,9 +17,6 @@ import { FooterComponent } from './footer/footer.component';
 import { SpaceComponent } from './space/space.component';
 import { PropertiesComponent } from './properties/properties.component';
 import { PropertyComponent } from './properties/property/property.component';
-import { FacilitiesComponent } from './properties/property/facilities/facilities.component';
-import { LocationComponent } from './properties/property/location/location.component';
-import { DescriptionComponent } from './properties/property/description/description.component';
 import {RouterModule} from '@angular/router';
 
 @NgModule({
@@ -37,10 +34,7 @@ import {RouterModule} from '@angular/router';
     FooterComponent,
     SpaceComponent,
     PropertiesComponent,
-    PropertyComponent,
-    FacilitiesComponent,
-    LocationComponent,
-    DescriptionComponent
+    PropertyComponent
   ],
   imports: [
     BrowserModule,
@@ -50,15 +44,7 @@ import {RouterModule} from '@angular/router';
       {path:'',component:MainComponent},
       {path:'main', component:MainComponent},
       {path:'properties', component:PropertiesComponent},
-      {path: 'property/:id',component:PropertyComponent, 
-      children:[
-        { path: '', component:FacilitiesComponent},
-        {path:'facilities', component:FacilitiesComponent},
-        {path:'description',component:DescriptionComponent},
-        {path:'location',component:LocationComponent},
-      ]
-    },
-     
+      {path: 'property/:id',component:PropertyComponent},   
     ])
   ],
   providers: [],

@@ -11,6 +11,7 @@ export class PropertyComponent implements OnInit {
  public data=[];
   public id;
   public mainData=this.data[this.id];
+  opt="facilities";
   constructor(private mydata:DataSevices, private route:ActivatedRoute) { }
   ngOnInit() {
     this.mydata.getData()
@@ -19,6 +20,21 @@ export class PropertyComponent implements OnInit {
     this.id=id-1;
     
     }
+   option(){
+    if(this.opt!=="facilities"){
+         this.opt="facilities"; 
+    }
+   }
+   option2(){
+    if(this.opt!=="description"){
+         this.opt="description"; 
+    }
+   }
+   option3(){
+    if(this.opt!=="location"){
+         this.opt="location"; 
+    }
+   }
   
   
   }
