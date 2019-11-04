@@ -1,17 +1,19 @@
 .myNav{
-    background-color: #303841;
+    background-color: #048998;
 }
 .nav div a{
-  color: #eeeeee;
+  color: #f6f5f5;
 }
 .brand{
-    color: #eeeeee;
+    color: #f6f5f5;
 }
 .brand:Hover{
-    color: #ea9215;
+    color: #e9e4e6;
 }
 .nav div a:Hover{
-    color: #ea9215;
+    color: #e9e4e6;
+    border: none;
+    background: none;
   }
   .active{
       color: #000;

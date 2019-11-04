@@ -1,5 +1,9 @@
 .count{
     padding-bottom: 2%;
     padding-top:2% ;
-    background-color: #b3b3b3;
+    background-color: #3bb4c1;
+    color: #f6f5f5;
+}
+.level-item p{
+    color: #f6f5f5;
 }
