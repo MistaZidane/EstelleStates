@@ -21,8 +21,8 @@
                         <div *ngSwitchCase="'facilities'" class="facilities">
                             <div class="columns">
                                 <div class="column is-4">
-                                  <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Bed  rooms: 4</p>
-                                  <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Bath Rooms: 4</p>
+                                  <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Bed  rooms: {{data[id]?.rooms}}</p>
+                                  <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Bath Rooms: {{data[id]?.bathrooms}}</p>
                                   <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Garage: 2</p>
                                   <p class="subtitle"><i class="fa fa-check" aria-hidden="true"></i> Bed rooms 4</p>
                                 </div>
@@ -45,14 +45,8 @@
 
                         <div class="columns">
                           <div class="column is-12">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              expedita impedit. Voluptatum accusantium saepe dolorem provident,
-              asperiores quis. Qui temporibus nihil deleniti dolores quos amet 
-              vero ipsam nisi. Suscipit, facilis.</p><br>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
-                   expedita impedit. Voluptatum accusantium saepe dolorem provident,
-                   asperiores quis. Qui temporibus nihil deleniti dolores quos amet 
-                   vero ipsam nisi. Suscipit, facilis.</p>
+                    <p>{{data[id]?.description.first}}</p><br>
+                    <p>{{data[id]?.description.second}}</p>
                   </div>
                       </div>
 

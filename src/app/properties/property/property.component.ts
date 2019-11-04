@@ -10,7 +10,6 @@ import {ActivatedRoute} from '@angular/router';
 export class PropertyComponent implements OnInit {
  public data=[];
   public id;
-  public mainData=this.data[this.id];
   opt="facilities";
   constructor(private mydata:DataSevices, private route:ActivatedRoute) { }
   ngOnInit() {

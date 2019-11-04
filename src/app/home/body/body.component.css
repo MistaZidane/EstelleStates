@@ -3,12 +3,30 @@
     word-spacing: 5px;;
 }
 .body{
-    background-color: #eeeeee;
-    background-image: url(../../../assets/background.jpg);
+    background-image: url(../../../assets/backg.jpg);
+    
     background-repeat: no-repeat;
-    padding-bottom: 13%;
-    padding-top: 5%;
+    
+    
 }
 .tit{
-    font-size: 50px;
+    font-size: 70px;
+    color: #fff;
+   font-family: 'Mitr', sans-serif;
+
+}
+.titl{
+    color: #fff;
+    font-family: 'Mitr', sans-serif;
+}
+/* @media (max-width: 972px){
+    .body {
+      background-image: none;
+   }
+   } */
+
+.test{
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 14%;
+    padding-top: 6%;
 }

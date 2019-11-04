@@ -2,3 +2,8 @@
     padding-bottom: 3%;
     background-color: #eeeeee;
 }
+@media (max-width: 1405px){
+    .des {
+      display: none;
+   }
+   }

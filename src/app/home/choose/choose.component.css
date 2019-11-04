@@ -3,3 +3,9 @@
     padding-bottom: 5%;
     background-color: #eeeeee;
 }
+@media (max-width: 972px){
+ .choose {
+   padding-left: 3%;
+}
+}
+
