@@ -10,14 +10,14 @@
     
 }
 .tit{
-    font-size: 70px;
+    font-size: 80px;
     color: #fff;
-   font-family: 'Mitr', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 .titl{
     color: #fff;
-    font-family: 'Mitr', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 /* @media (max-width: 972px){
     .body {
@@ -29,4 +29,8 @@
     background: rgba(0, 0, 0, 0.6);
     padding-bottom: 15%;
     padding-top: 12%;
+}
+.btn:hover{
+    background-color: #048998;
+    color: #f6f5f5;
 }
